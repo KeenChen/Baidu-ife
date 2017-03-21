@@ -34,11 +34,10 @@
 	</ul>
 
 	<h2>图片</h2>
-	<p>好看的图片</p><img src="images/1.jpg" />
-	<p>好看的图片</p><img src="images/1.jpg" />
-	<p>好看的图片</p><img src="images/1.jpg" />
-	<p>好看的图片</p><img src="images/1.jpg" />
-	<p>好看的图片</p><img src="images/1.jpg" />
+	<blockquote><span>好看的图片</span><br/><img src="images/1.jpg" /></blockquote>
+	<blockquote><span>好看的图片</span><br/><img src="images/1.jpg" /></blockquote>
+	<blockquote><span>好看的图片</span><br/><img src="images/1.jpg" /></blockquote>
+	<blockquote><span>好看的图片</span><br/><img src="images/1.jpg" /></blockquote>
 
 	<h2>最后一篇文章一级标题</h2>
 	<h2>文章二级标题</h2>
@@ -48,39 +47,60 @@
 		<li>排名2</li>
 		<li>排名3</li>
 	</ol>
-	<p>下面是一个表格，给表格加了一个border=“1”好让你看出是一个表格</p>
-	<table style="border: 1px solid #000;">
-		<tr>
-			<th style="border: 1px solid #000">表头</th>
-			<th style="border: 1px solid #000">表头</th>
-			<th style="border: 1px solid #000">表头</th>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #000">表内容单元格</td>
-			<td style="border: 1px solid #000">表内容单元格</td>
-			<td style="border: 1px solid #000"><a href="">操作</a></td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #000">表内容单元格</td>
-			<td style="border: 1px solid #000">表内容单元格</td>
-			<td style="border: 1px solid #000"><a href="">操作</a></td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #000">表内容单元格</td>
-			<td style="border: 1px solid #000">表内容单元格</td>
-			<td style="border: 1px solid #000"><a href="">操作</a></td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #000">表内容单元格</td>
-			<td style="border: 1px solid #000">表内容单元格</td>
-			<td style="border: 1px solid #000"><a href="">操作</a></td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid #000">总计</td>
-			<td colspan="2" style="border: 1px solid #000">1000</td>
-			
-		</tr>
+	<table border="1">
+		<p>下面是一个表格，给表格加了一个border=“1”好让你看出是一个表格</p>
+		<tbody>
+			<tr>
+				<th>表头</th>
+				<th>表头</th>
+				<th>表头</th>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="">操作</a></td>
+			</tr>
+			<tr>
+				<td>总计</td>
+				<td colspan="2">1000</td>
+			</tr>
+		</tbody>
 	</table>
-	<p></p>
+	<h2>侧栏标题</h2>
+	<h2>侧栏注册窗口标题</h2>
+	<form>
+		请输入邮箱地址：<input type="text" name="email" placeholder="这是一个文本输入框"/>
+		<p>邮箱地址请按要求格式输出<p>
+		请输入密码：<input type="password" name="password" placeholder="这是一个文本输入框"/>请重复输入密码：<input type="password" name="password" placeholder="这是一个文本输入框"/>
+		<p>密码请为6-16位英文数字</p>
+		性别：<input type="radio" name="sex" value="man" checked="checked"/>男
+			  <input type="radio" name="sex" value="female"/>女
+		城市：<select value="city">
+			  	<option value="bj" checked>北京</option>
+			  	<option value="sh" checked>上海</option>
+			  	<option value="zj" checked>浙江</option>
+			  </select>
+		爱好：<input type="checkbox" name="hobby[]" value="sports" />运动
+			  <input type="checkbox" name="hobby[]" value="art" />艺术
+			  <input type="checkbox" name="hobby[]" value="science" />科学
+		个人描述：<textarea name="description">这是一个多行输入框，请输入您的个人描述</textarea>
+		<button type="submit" value="submit">确认提交</button>
+	</form>
+	<p>版权所有©</p>
 </body>
 </html>
