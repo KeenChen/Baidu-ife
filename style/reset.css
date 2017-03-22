@@ -2,25 +2,13 @@ body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,input,img,div,dl,dd{
     margin:0;padding:0;
 }
 body{
-    font-size:12px;
-}
-img{
-    border:none;
-}
-li{
-    list-style: none;
-}
-input,select,textarea{
-    outline:none;
-    border:none;
-    background:none;
-}
-textarea{
-    resize:none;
+    font-size:16px;
+    font-family: "微软雅黑";
+    line-height:2em;
+    background-color: #ccc;
 }
 a{
-    text-decoration: none;
-    color:#656565;
+    color:#0000cc;
 }
 
 /*清除浮动*/
