@@ -97,12 +97,20 @@ aside form{
 }
 aside form span{
 	color:#ccc;
+	font-size:14px;
+	margin-left:365px;
 }
 
-aside form input{
-	padding:3px 0;
+aside form div input{
+	padding:3px 2px;
 	margin:8px 0;
 	font-size: 14px;
+}
+aside div label{
+	float: left;
+	text-align: right;
+	width:28%;
+	padding-right:20px;
 }
 aside form button{
 	border: none;
@@ -118,6 +126,26 @@ aside form button{
 	-ms-border-radius: 10px;
 	-moz-border-radius: 10px;
 	margin:20px 0 0 0;
+}
+input .radio_box{
+
+	border:none;
+	background: #00cccc;
+	width:8px;
+	height:8px;
+	border-radius: 100%;
+}
+.select{
+			appearance:none;
+		-moz-appearance:none;
+		-ms-appearance:none;
+	-webkit-appearance:none;
+			border-radius: 2px;
+		-moz-border-radius: 2px;
+		-ms-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background: url(../images/icon.jpg) no-repeat scroll right center transparent;
+	padding-right:16px;
 }
 /*footer样式设置*/
 footer p{
